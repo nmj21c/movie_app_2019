@@ -10,8 +10,14 @@
 ```
   github static web 제공
   프로젝트 네임은 소문자로 입력
-  package.json 에 homepage 항목 추가 ex) "homepage" : "https://nmj21c.github.id/movie_app_2019"
-  URL : https://{github id}.github.io/{repository id} ex) https://nmj21c.github.id/movie_app_2019
+  package.json 에 homepage 항목 추가 ex) "homepage" : "https://nmj21c.github.io/movie_app_2019"
+  URL : https://{github id}.github.io/{repository id} ex) https://nmj21c.github.io/movie_app_2019
   script >> "deploy": "gh-pages -d build"  // -d directory
-
+```
+- yarn add react-router-dom
+```
+HashRouter  : url/#/routername
+BrowserRoutner : url/routername ( github page 에서 추가 설정이 필요함)
+Route:  (path: 인실할 path, component: path 에 연결될 컴포넌트, exact : 정확이 path가 일치해야 하는 여부)
+Link to="" : 페이지 이동 시 사용 <Link to="/">Home</Link>  , import {Link } from "react-router-dom", (Router 안의 Component에서만 사용 가능)
 ```
